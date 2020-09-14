@@ -1,2 +1,2 @@
 # PL1
-My projects from Programming Llanguages 1 class
+My projects from Programming Languages 1 class

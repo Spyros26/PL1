@@ -1,1 +1,35 @@
-Vaccine Project
+#Vaccine Project
+
+There are two stacks. Their elements are called bases.
+There are 4 bases: A G U C.
+The first stack is full (tis is the one that is given) and the second is empty.
+
+There are 3 moves.
+1. push: pops the base from the first stack and pushes it to the second.
+2. complement: replaces its base of the first stack with its complement base (A-U G-C).
+3. reverse: reverses the 2nd stack.
+
+The vaccine is safe when every base is on the second stack and they are all in groups (e.g. AAAGGGUUUCCC).
+Find the shortest succesion of moves that result in a safe vaccine (lexicographically smaller solutions are prefered).
+
+example input:
+$ cat v1.txt
+8
+GG
+UAGA
+GAGA
+GUACA
+UGACACA
+CACGCGC
+AGAGUGUCUGUCU
+GAUUCCGCCUGCACGCC 
+
+example output:
+pp
+pprpp
+ppcpp
+pprppp
+pprprprppp
+pcpcpcpcpcpp
+pprpcrpcrprprprprprprprprp
+ppcpcpcpprpprppcpcpprppcprp

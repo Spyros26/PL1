@@ -28,6 +28,7 @@ $ cat graphs.txt
 4 9
 
 example output:
+$ ./coronograph graphs.txt
 CORONA 3
 2 3 4
 NO CORONA

@@ -1,1 +1,21 @@
-StayHome Project
+#StayHome Project
+
+A map is given.
+Sotiris (whose starting position is S) wants to go home (position T) before the infection (starts at W) blocks his way. If the infection reaches an airport (A in map)
+in 5 time units travels to every other airport in the map.
+Sotiris moves twice as fast as the infection spreads but doesn't uses airports. (1 time unit for every move Sotiris makes and 2 time units for the infection to spread to its neighors)
+Xs on the map are blocks and dots (.) are open spaces.
+Find the shortest way home if possible (lexicographically smaller solutions are prefered).
+
+example input:
+$ cat s1.txt
+S........XAW
+A........XXX
+............
+............
+......A....T
+
+example output:
+$ ./stayhome s1.txt
+15
+DDRRRRRRRDRRRDR
